@@ -3,7 +3,7 @@ package com.example.Backend;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(exclude = {SecurityAutoConfiguration.class })
 public class BackendApplication {
 
 	public static void main(String[] args) {
