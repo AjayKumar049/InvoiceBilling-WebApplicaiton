@@ -1,4 +1,4 @@
-package com.example.billing.controller;
+package com.example.Backend.controller;
 import org.springframework.http.HttpStatus;
 
 import org.springframework.http.ResponseEntity;
@@ -8,14 +8,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.billing.dto.SignupDto;
-import com.example.billing.exception.BillingSystemAlreadyExist;
-import com.example.billing.exception.BillingSystemInternalException;
-import com.example.billing.exception.BillingSystemNotFoundException;
-import com.example.billing.model.Users;
-import com.example.billing.reponse.BillingSystemResponseBuilder;
-import com.example.billing.service.AuthenticationService;
-import com.example.billing.utility.RequestValidationUtil;
+import com.example.Backend.dto.SignupDto;
+import com.example.Backend.exception.BillingSystemAlreadyExist;
+import com.example.Backend.exception.BillingSystemInternalException;
+import com.example.Backend.exception.BillingSystemNotFoundException;
+import com.example.Backend.model.Users;
+import com.example.Backend.reponse.BillingSystemResponseBuilder;
+import com.example.Backend.service.AuthenticationService;
+import com.example.Backend.utility.RequestValidationUtil;
 
 import jakarta.validation.Valid;
 @RestController
