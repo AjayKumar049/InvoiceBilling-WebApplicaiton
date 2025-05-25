@@ -1,4 +1,4 @@
-package com.example.billing.constant;
+package com.example.Backend.constant;
 
 public class BillingSystemConstants {
 
