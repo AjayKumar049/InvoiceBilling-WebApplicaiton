@@ -9,14 +9,14 @@ import Notfound from "../components/Notfound";
 const AppRouter = createBrowserRouter([
   {
     path: "/",
-    element: <Applayout />, // Layout
+    element: <Applayout />, 
     children: [
       {
-        index: true, // This is same as path: ""
+        index: true,
         element: <Signup />,
       },
       {
-        path: "/login", // no slash needed
+        path: "/login", 
         element: <Login />,
       },
       {
