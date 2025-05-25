@@ -1,12 +1,12 @@
-package com.example.billing.service;
+package com.example.Backend.service;
 import java.util.List;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
-import com.example.billing.exception.BillingSystemAlreadyExist;
-import com.example.billing.exception.BillingSystemInternalException;
-import com.example.billing.exception.BillingSystemNotFoundException;
-import com.example.billing.model.Customer;
-import com.example.billing.repository.CustomerRepository;
+import com.example.Backend.exception.BillingSystemAlreadyExist;
+import com.example.Backend.exception.BillingSystemInternalException;
+import com.example.Backend.excepation.BillingSystemNotFoundException;
+import com.example.Backend.model.Customer;
+import com.example.Backend.repository.CustomerRepository;
 
 @Service
 public class CustomerServiceImpl implements CustomerService {
