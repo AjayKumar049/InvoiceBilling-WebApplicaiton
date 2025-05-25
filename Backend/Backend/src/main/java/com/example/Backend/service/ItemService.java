@@ -1,6 +1,6 @@
-package com.example.billing.service;
+package com.example.Backend.service;
 import java.util.List;
-import com.example.billing.model.Item;
+import com.example.Backend.model.Item;
 public interface ItemService {
  Item addItem(Item item);
  Item updateItem(Item item);
