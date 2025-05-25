@@ -1,9 +1,9 @@
-package com.example.billing.service;
+package com.example.Backend.service;
 
 import java.util.List;
 
-import com.example.billing.model.Customer;
-import com.example.billing.model.Item;
+import com.example.Backend.model.Customer;
+
 
 
 public interface CustomerService {
