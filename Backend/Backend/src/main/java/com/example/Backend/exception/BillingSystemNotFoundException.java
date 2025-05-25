@@ -1,4 +1,4 @@
-package com.example.billing.exception;
+package com.example.Backend.exception;
 
 public class BillingSystemNotFoundException extends RuntimeException {
 
