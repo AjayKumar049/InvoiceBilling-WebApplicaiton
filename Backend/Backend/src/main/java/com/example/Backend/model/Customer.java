@@ -1,4 +1,4 @@
-package com.example.billing.model;
+package com.example.Backend.model;
 
 import jakarta.validation.constraints.NotNull;
 
