@@ -1,4 +1,4 @@
-package com.example.billing.service;
+package com.example.Backend.service;
 
 import java.util.HashSet;
 
@@ -14,12 +14,12 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.example.billing.dto.SignupDto;
-import com.example.billing.exception.BillingSystemAlreadyExist;
-import com.example.billing.exception.BillingSystemInternalException;
-import com.example.billing.exception.BillingSystemNotFoundException;
-import com.example.billing.model.Users;
-import com.example.billing.repository.AuthenticationRepository;
+import com.example.Backend.dto.SignupDto;
+import com.example.Backend.exception.BillingSystemAlreadyExist;
+import com.example.Backend.exception.BillingSystemInternalException;
+import com.example.Backend.exception.BillingSystemNotFoundException;
+import com.example.Backend.model.Users;
+import com.example.Backend.repository.AuthenticationRepository;
 
 @Service
 public class AuthenticationImpl implements AuthenticationService{
