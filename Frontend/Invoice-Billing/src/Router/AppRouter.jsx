@@ -4,7 +4,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Applayout from "../components/layouts/Applayout"; 
 import Signup from "../components/pages/Signup";
 import Login from "../components/pages/Login"; 
-import Notfound from "../components/Notfound";
+import PageNotFound from "../components/pages/PageNotFound";
+
 
 const AppRouter = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ const AppRouter = createBrowserRouter([
     element: <Applayout />, 
     children: [
       {
-        index: true,
+        path: "/",
         element: <Signup />,
       },
       {
@@ -20,9 +21,10 @@ const AppRouter = createBrowserRouter([
         element: <Login />,
       },
       {
-        path: "*",
-        element: <Notfound />,
+        path: "/*", 
+        element: <PageNotFound />,
       }
+     
     ]
   }
 ]);
