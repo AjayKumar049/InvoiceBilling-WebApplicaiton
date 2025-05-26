@@ -24,14 +24,14 @@ public class CustomerRepository {
     private final JdbcTemplate jdbcTemplate;
     private static final Logger logger = LoggerFactory.getLogger(CustomerRepository.class);
 
-    // ✅ Instantiate RowMapper to avoid null values
+    // Instantiate RowMapper to avoid null values
     private final CustomerRowMapper customerRowMapper = new CustomerRowMapper();
 
     public CustomerRepository(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
 
-    // ✅ RowMapper to map ResultSet to Customer object
+    // RowMapper to map ResultSet to Customer object
     public class CustomerRowMapper implements RowMapper<Customer> {
         @Override
         public Customer mapRow(ResultSet rs, int rowNum) throws SQLException {
