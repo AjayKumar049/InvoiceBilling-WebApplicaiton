@@ -95,8 +95,15 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/postmark/postmark -->
+	<dependency>
+    <groupId>postmark</groupId>
+    <artifactId>postmark</artifactId>
+    
+</dependency>
 		
-	</dependencies>
+</dependencies>
 
 
 	<build>
