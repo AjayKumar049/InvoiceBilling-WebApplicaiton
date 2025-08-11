@@ -1,9 +1,5 @@
-<h1>#Invoice-billing-System</h1>
+<h1>Spring boot</h1>
 
-I have been working on invoice-billing-System
+This repository demonstrates REST API development using the MVC architecture, Spring Security, custom exception handling, try-catch blocks for exception management, Spring logging, and JDBC.
 
-##<b>Tech Stack</b>
 
-<ol><li>Frontend- ReactJS, Vite, and Tailwind Css</li>
-<li>Backend- Spring Boot</li>
-<li>Database- PostgreSQL</li></ol>
