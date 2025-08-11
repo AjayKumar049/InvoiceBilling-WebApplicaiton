@@ -2,7 +2,7 @@
 
 This repository demonstrates REST API development using the MVC architecture, Spring Security, custom exception handling, try-catch blocks for exception management, Spring logging, and JDBC.
 
-#Custom Exception Handling
+<b>#Custom Exception Handling</b>
 
 The project implements custom exception handling with meaningful error messages and proper HTTP status codes. Here are some examples:
 
